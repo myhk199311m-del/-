@@ -13,7 +13,7 @@ from flask import Flask
 # ══════════════════════════════════════════════════════════════
 #  إعدادات
 # ══════════════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8720697433:AAGTkLVCKb6lzMdVM2NosXNMWn4eRaqg0FQ")
+BOT_TOKEN = "8720697433:AAH2xUSGAEDTT4dxAysULsEYoypamhIo4FU")
 CHAT_ID   = int(os.environ.get("CHAT_ID", "8674500253"))
 
 SYMBOLS = {
