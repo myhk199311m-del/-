@@ -1,0 +1,6 @@
+flask
+pandas
+yfinance
+matplotlib
+waitress
+requests
