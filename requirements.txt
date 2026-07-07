@@ -1,6 +1,6 @@
-flask
 requests
 pandas
 numpy
 yfinance
+flask
 waitress
