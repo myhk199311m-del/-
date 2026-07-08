@@ -18,7 +18,7 @@ from flask import Flask
 # BOT_TOKEN القديم كان مكشوفاً في الكود السابق — يجب إلغاؤه فوراً عبر BotFather (/revoke)
 # وتوليد توكن جديد ووضعه في Environment Variables فقط.
 BOT_TOKEN = os.environ.get("8792351652:AAET4YWVp2xpOxMOeGgSrqw1MqaniUamtSw")
-CHAT_ID = int(os.environ.get("CHAT_ID", "8674500253"))
+CHAT_ID = int(os.environ.get"8674500253"
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN غير موجود في متغيرات البيئة! أضفه في إعدادات Render/Railway.")
